@@ -1,6 +1,6 @@
 {
-  "name": "react-datepicker",
-  "version": "3.1.6",
+  "name": "@respoinc/react-datepicker",
+  "version": "3.1.7",
   "description": "A modern, beautiful, customizable date picker for React",
   "main": "lib/index.js",
   "types": "index.d.ts",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/RespoTeam/react-datepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RespoTeam/react-datepicker.git"
+    "url": "git+https://github.com/RespoTeam/react-datepicker.git"
   },
   "bugs": {
     "url": "https://github.com/RespoTeam/react-datepicker/issues"
@@ -108,5 +108,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "directories": {
+    "test": "test"
   }
 }
