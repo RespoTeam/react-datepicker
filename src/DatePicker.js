@@ -22,6 +22,7 @@ const DatePicker = ({
   calendarRangeEndClassName,
   calendarPopperPosition,
   disabledDays,
+  enabledDays,
   onDisabledDayError,
   colorPrimary,
   colorPrimaryLight,
@@ -173,6 +174,7 @@ const DatePicker = ({
               calendarRangeBetweenClassName={calendarRangeBetweenClassName}
               calendarRangeEndClassName={calendarRangeEndClassName}
               disabledDays={disabledDays}
+              enabledDays={enabledDays}
               colorPrimary={colorPrimary}
               colorPrimaryLight={colorPrimaryLight}
               slideAnimationDuration={slideAnimationDuration}
